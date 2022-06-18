@@ -1,0 +1,82 @@
+html,body {
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('Lexend/Lexend-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Shoulder';
+    src: url('Big_Shoulders_Text/BigShouldersText-VariableFont_wght.ttf');
+}
+
+
+
+
+main {
+     display: grid;
+    grid-template-columns: 33.3% 33.3%  33.3% ;
+    grid-template-rows:auto;
+}
+
+body{
+    font-family: "Lexend";
+    font-weight: 400;
+    font-size: 24px;
+    color: hsla(189, 28%, 22%, 0.877);
+
+
+}
+
+img {
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Shoulder', Courier, monospace;
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 30px;
+
+}
+
+#main {
+    background-color: aquamarine;
+
+}
+
+#main2 {
+    background-color: rgb(255, 242, 127);
+}
+
+#main3 {
+    background-color: rgb(255, 127, 155);
+}
+
+#main,#main2,#main3{
+    padding: 3em;
+
+}
+
+button {
+    margin: 3rem;
+    font-size: 24px;
+    padding: 0.5em;
+    border-radius: 12px;
+    font-family: 'Lexend', Courier, monospace;
+}
+
+#b2:hover{
+    background-color: rgb(255, 242, 127);
+}
+
+#b1:hover{
+   background-color: aquamarine;
+}
+
+#b3:hover{
+    background-color: lightslategray;
+}
